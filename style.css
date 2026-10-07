@@ -531,6 +531,20 @@ blockquote p {
   .services { padding: 50px 0; }
   .service-grid { grid-template-columns: 1fr; }
   .service-card { min-height: 240px; border-left: 0; border-top: 1px solid var(--line); padding: 28px 0; }
+  .founder-visual {
+  min-height: 360px;
+  padding: 35px;
+}
+
+.founder-photo {
+  width: min(60%, 220px);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 14px 30px rgba(0,0,0,.10);
+}
   .projects { padding: 48px 0 58px; }
   .projects-heading { align-items: flex-start; }
   .project-grid { grid-template-columns: 1fr; gap: 38px; }
