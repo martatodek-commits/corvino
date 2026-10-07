@@ -581,3 +581,19 @@ blockquote p {
   box-shadow: none;
   display: block;
 }
+.founder-visual {
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  align-self: center;
+  overflow: visible;
+}
+
+.founder-photo {
+  width: 190px;
+  height: auto;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
+}
