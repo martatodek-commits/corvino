@@ -597,9 +597,26 @@ blockquote p {
   border-radius: 0;
   box-shadow: none;
 }
-.founder-visual .founder-photo {
-  width: 480px !important;
-  max-width: 100% !important;
-  height: auto !important;
-}
+@media (max-width: 720px) {
 
+  .founder-visual {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 0 !important;
+    background: transparent !important;
+    display: flex !important;
+    justify-content: center !important;
+    overflow: visible !important;
+  }
+
+  .founder-visual .founder-photo {
+    width: 260px !important;
+    max-width: 78vw !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    margin: 0 auto 30px !important;
+  }
+
+}
