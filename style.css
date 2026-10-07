@@ -601,7 +601,5 @@ blockquote p {
   width: 480px !important;
   max-width: 100% !important;
   height: auto !important;
-  display: block;
-  border-radius: 0;
-  box-shadow: none;
 }
+
