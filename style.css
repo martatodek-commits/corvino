@@ -642,3 +642,33 @@ blockquote p {
     object-fit: contain;
   }
 }
+.hero-visual {
+  min-height: 0 !important;
+  height: auto !important;
+  background: transparent !important;
+  overflow: visible !important;
+  align-self: center;
+}
+
+.hero-photo {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  display: block !important;
+}
+
+@media (max-width: 720px) {
+  .hero-visual {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  .hero-photo {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    object-fit: contain !important;
+  }
+}
